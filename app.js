@@ -13,7 +13,7 @@ const getSearch = async () => {
 
     // to fetch the response from the api
     else{
-        const response = await fetch(`http://www.omdbapi.com/?apikey=19ba7fd1&s=${searchValue}`)
+        const response = await fetch(`https://www.omdbapi.com/?apikey=19ba7fd1&s=${searchValue}`)
         const values=await response.json();
         
         // for movies not in the database
