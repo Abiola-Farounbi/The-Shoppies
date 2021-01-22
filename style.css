@@ -45,7 +45,6 @@ header h1{
 }
 
 
-
 .main_body1{
     border-right:1px solid  #6C63FF;
     font-family: 'Marmelad', sans-serif;
@@ -74,7 +73,6 @@ header h1{
     border-radius:50%;
     border:5px solid #6C63FF; 
 }
-
 
 
 /* Overriding a bootstrap style */

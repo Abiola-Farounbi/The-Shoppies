@@ -32,7 +32,6 @@ const getSearch = async () => {
         const response = await fetch(`https://www.omdbapi.com/?apikey=19ba7fd1&s=${searchValue}`)
         const values=await response.json();
         
-
         // for movies not in the database
         if(values.Response == "False"){
             document.querySelector('.main_body').innerHTML= `
@@ -45,7 +44,6 @@ const getSearch = async () => {
           // global variable
           const counter = 0
           counterN= parseInt(counter)
-
 
           // to remove movies from the nomination list
           const  remove_movie = (e) =>{
